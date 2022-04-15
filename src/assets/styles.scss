@@ -1,0 +1,13 @@
+//FONT
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+//BASE
+@import './style/base/base.scss';
+@import './style/base/helpers.scss';
+
+//PAGES
+
+//COMPONENTS
+@import './style/components/audio-list.scss';
+@import './style/components/audio-track.scss';
+@import './style/components/controls.scss';

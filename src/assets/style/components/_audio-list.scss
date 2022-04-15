@@ -1,0 +1,45 @@
+.audio-line {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  left: 10%;
+  -webkit-appearance: none;
+  background: transparent;
+  z-index: 0;
+}
+
+.audio-line::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 1px;
+  background-color: #231f20;
+  height: 87vh;
+  cursor: pointer;
+}
+
+.audio-line::-moz-range-thumb {
+  width: 1px;
+  background-color: #231f20;
+  height: 87vh;
+  border: 0;
+  cursor: pointer;
+}
+
+input[type='range']::-ms-thumb {
+  width: 1px;
+  background-color: #231f20;
+  height: 87vh;
+  border: 0;
+  cursor: pointer;
+}
+
+.audio-line::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+.audio-line:focus {
+  outline: none;
+}

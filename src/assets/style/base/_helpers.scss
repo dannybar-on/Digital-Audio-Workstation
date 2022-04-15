@@ -1,0 +1,33 @@
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.clean-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-layout {
+  max-width: 960px;
+  margin: 0 auto;
+}

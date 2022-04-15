@@ -1,0 +1,21 @@
+.audio-control {
+  background-color: #8a817c;
+  color: #ffffff;
+  padding: 15px 15px;
+  border-radius: 5px;
+  font-size: 20px;
+
+  &.active {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  &:hover {
+    background-color: #bcb8b1;
+    color: #000000;
+  }
+}
+
+.audio-control + .audio-control {
+  margin-left: 15px;
+}
