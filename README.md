@@ -16,3 +16,4 @@ The app comes with 9 fixed tracks that are played simultaneously, hence a dummy 
 - Draggable timeline.
 
 ## Demo
+[Github Pages Deployment](https://dannybar-on.github.io/Digital-Audio-Workstation/)
